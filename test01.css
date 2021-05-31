@@ -24,12 +24,13 @@
 
     .cardbox{
         width: 310px;
-        height: 360px;
+        /* height: 360px; */
         background-image: url("dataCardBgc.jpg");
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
+           /* border: solid 1px pink; */
     }
 
     .img img{
@@ -61,7 +62,6 @@
     .content .subtitle{
         /* line-height:20px;  */
         font-size: 18px;
-        font-size: 1.17em;
         font-weight: 900;
         color: #727171;
     }
@@ -72,12 +72,9 @@
         color: #727171;
     }
 
-
-
-
     .price{
         /* border: solid 2px orange; */
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 0 5px;
         display: flex;
        
@@ -85,8 +82,8 @@
 
     .price-list{
         width: 60%;
+        height: 22px;
         display: flex;
-        /* border: solid 2px red; */
         justify-content:flex-end;
         align-items: center; 
         font-size: 16px;
@@ -95,10 +92,12 @@
 
     .count{
         width: 40%;
+        height: 22px;
         display: flex;
         /* border: solid 2px red; */
         justify-content:flex-end;
         align-items: center;
+     
     }
     .notes{
         width: 50px;
@@ -128,6 +127,7 @@
 
     .add img, .less img{
         width: 22px;
+        height: 22px;
     }
 
     .add, .less{
